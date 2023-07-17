@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Influencer Gear</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4265e85a27.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -17,8 +21,12 @@
           <li><a href="#">Products</a></li>
           <li><a href="#">Sign Up</a></li>
           <li><a href="#">Log In</a></li>
-          <li><a href="#">Search</a></li>
-          <li>Cart</li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -31,7 +39,10 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
               vestibulum sed scelerisque eros. Lectus faucibus.
             </p>
-            <button class="btn-primary">Prebook Now</button>
+            <button class="btn-primary">
+              <span style="padding-right: 8px">Prebook Now</span
+              ><i class="fas fa-arrow-right"></i>
+            </button>
           </div>
           <div class="banner-img">
             <img src="./images/main-camera.png" alt="" />
@@ -139,6 +150,12 @@
               <p>Buyers protection possible!</p>
             </div>
           </div>
+          <p class="see-more">
+            <a href="#"
+              ><span style="padding-right: 8px">See more</span
+              ><i class="fas fa-arrow-right"></i
+            ></a>
+          </p>
         </div>
       </section>
       <section>
@@ -153,11 +170,21 @@
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
-            <button class="btn-primary">Join Now</button>
+            <button class="btn-primary">
+              <span style="padding-right: 8px">Join Now</span
+              ><i class="fas fa-arrow-right"></i>
+            </button>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-content">
+        <h2>Influencer products</h2>
+        <p><small>Copyright © 2020 influencer products</small></p>
+        <p><small>All rights reserved</small></p>
+        <div class="icons"></div>
+      </div>
+    </footer>
   </body>
 </html>
